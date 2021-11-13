@@ -1,5 +1,5 @@
 :root {
-  --header-hover-color: rgb(238, 77, 72);
+  --hover-color: rgb(238, 77, 72);
 }
 
 html {
@@ -10,19 +10,50 @@ html {
 
 nav {
   margin-top: 15px;
-  left: 10%
-}
-
-a {
-  font-size: 1.4rem;
-}
-
-ul .dropdown-item {
-  font-size: 1.2rem;
+  left: 5%
 }
 
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
   font-weight: bold;
+  margin-right: 200px;
+}
+
+.nav-item a {
+  font-size: 1.5rem;
+}
+
+.nav-link.active {
+  color: var(--hover-color) !important;
+}
+
+.nav-link:hover {
+  color: var(--hover-color) !important;
+}
+
+.sf-sub-indicator {
+  font-size: .8rem;
+  vertical-align: 15%;
+}
+
+.collapse.navbar-collapse li {
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  height: 150px;
+  width: 150px;
+  border-color: transparent;
+  padding-top: 20px;
+}
+
+ul .dropdown-item {
+  color: rgb(119, 119, 119);
+  font-size: 1.2rem;
+}
+
+ul .dropdown-item:hover {
+  color: var(--hover-color);
+  background-color: transparent;
 }
