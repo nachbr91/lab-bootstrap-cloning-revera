@@ -1,0 +1,28 @@
+:root {
+  --header-hover-color: rgb(238, 77, 72);
+}
+
+html {
+  font-size: 10px; /* 10px = 1rem */
+}
+
+/* HEADER */
+
+nav {
+  margin-top: 15px;
+  left: 10%
+}
+
+a {
+  font-size: 1.4rem;
+}
+
+ul .dropdown-item {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
